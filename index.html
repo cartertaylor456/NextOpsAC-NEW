@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NextOpsAC – Your AI Front Desk for Service Businesses</title>
+  <meta name="description" content="NextOpsAC is an AI-powered front desk for HVAC, plumbing, and service businesses. Never miss another job." />
+
+  <style>
+    :root {
+      --primary: #0f4c81;
+      --secondary: #1e90ff;
+      --dark: #0b1f33;
+      --light: #f7f9fc;
+      --text: #2b2b2b;
+      --muted: #6b7280;
+      --radius: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+    }
+
+    body {
+      color: var(--text);
+      background: white;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 24px;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(135deg, var(--dark), var(--primary));
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 700px;
+      margin: 0 auto 32px;
+      color: #e5e7eb;
+    }
+
+    .cta {
+      display: inline-block;
+      background: var(--secondary);
+      color: white;
+      padding: 16px 32px;
+      border-radius: var(--radius);
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 80px 0;
+    }
+
+    section.light {
+      background: var(--light);
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+
+    .subtext {
+      text-align: center;
+      color: var(--muted);
+      max-width: 700px;
+      margin: 0 auto 48px;
+      font-size: 1.05rem;
+    }
+
+    /* GRID */
+    .grid {
+      display: grid;
+      gap: 32px;
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .card {
+      background: white;
+      padding: 32px;
+      border-radius: var(--radius);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+    }
+
+    .card p {
+      color: var(--muted);
+    }
+
+    /* HOW IT WORKS */
+    .steps {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .step {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 28px;
+    }
+
+    .step-number {
+      min-width: 36px;
+      height: 36px;
+      background: var(--secondary);
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+    }
+
+    /* PRICING */
+    .pricing {
+      max-width: 420px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .price {
+      font-size: 3rem;
+      font-weight: 800;
+      margin: 16px 0;
+      color: var(--primary);
+    }
+
+    .pricing ul {
+      list-style: none;
+      margin: 24px 0;
+      text-align: left;
+    }
+
+    .pricing li {
+      margin-bottom: 12px;
+    }
+
+    /* FINAL CTA */
+    .final-cta {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      text-align: center;
+      padding: 80px 24px;
+    }
+
+    .final-cta h2 {
+      margin-bottom: 16px;
+    }
+
+    .final-cta p {
+      margin-bottom: 32px;
+      color: #e5e7eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1>Your AI Front Desk for Service Businesses</h1>
+      <p>
+        NextOpsAC automatically responds to missed calls, schedules jobs directly onto technician calendars,
+        and eliminates front-office admin work — 24/7.
+      </p>
+      <a href="#" class="cta">Start Free Trial</a>
+      <p style="margin-top:16px; font-weight:600; font-size:1.1rem; color:#e5e7eb;">
+        Special Early Access Pricing: Only $149/month for a limited time!
+      </p>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="light">
+    <div class="container">
+      <h2>The Problem</h2>
+      <p class="subtext">
+        Service businesses lose thousands every month due to missed calls and slow follow-ups.
+      </p>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>📞 Missed Calls</h3>
+          <p>Customers call while techs are busy — and never hear back.</p>
+        </div>
+        <div class="card">
+          <h3>⏱ Slow Response</h3>
+          <p>Every minute without a reply increases the chance they call a competitor.</p>
+        </div>
+        <div class="card">
+          <h3>📅 Disorganized Scheduling</h3>
+          <p>Manual scheduling creates mistakes, delays, and frustrated customers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section>
+    <div class="container">
+      <h2>The Solution</h2>
+      <p class="subtext">
+        NextOpsAC acts as your AI-powered front office.
+      </p>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>💬 Instant AI Texting</h3>
+          <p>Miss a call? AI texts the customer immediately and starts the conversation.</p>
+        </div>
+        <div class="card">
+          <h3>📅 Automatic Scheduling</h3>
+          <p>Jobs are booked directly onto the right technician’s calendar.</p>
+        </div>
+        <div class="card">
+          <h3>🧰 Technician App</h3>
+          <p>Jobs, messages, customer info, and availability — all in one place.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="light">
+    <div class="container">
+      <h2>How It Works</h2>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <p>Customer calls your business.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <p>If you miss the call, NextOpsAC texts them instantly.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <p>AI gathers job details and answers questions.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <p>The job is scheduled automatically on the technician’s calendar.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">5</div>
+          <p>Your tech shows up informed and ready.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section>
+    <div class="container">
+      <h2>Simple Pricing</h2>
+
+      <div class="pricing card">
+        <h3>Starter Plan – Early Access</h3>
+        <div class="price">$149/mo</div>
+        <p style="text-align:center; color: var(--muted); font-weight: 600; margin-bottom: 16px;">
+          Special introductory pricing — available for a limited time only!
+        </p>
+        <ul>
+          <li>✔ AI texting for missed calls</li>
+          <li>✔ Automatic job scheduling</li>
+          <li>✔ Technician app access</li>
+          <li>✔ 14-day free trial</li>
+          <li>✔ Cancel anytime</li>
+        </ul>
+        <a href="#" class="cta">Start Free Trial</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <h2>Stop Losing Jobs to Missed Calls</h2>
+    <p>Let AI run your front desk while you focus on the work that matters.</p>
+    <a href="#" class="cta">Get Started Today</a>
+  </section>
+
+  <footer>
+    © 2026 NextOpsAC. All rights reserved.
+  </footer>
+
+</body>
+</html>
